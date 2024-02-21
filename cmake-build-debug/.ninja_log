@@ -1,0 +1,23 @@
+# ninja log v5
+0	131	7299045108831574	CMakeFiles/PrintMark.dir/PrintMark.c.obj	553b64c65b369f41
+6	183	7299044892289968	CMakeFiles/untitled1.dir/PrintMark.c.obj	3aa79e70430ec04a
+2	117	7298504358150626	CMakeFiles/untitled.dir/main.c.obj	65d525e57861ad2b
+3	220	7299043922262006	untitled.exe	be8f472a4dd9f571
+184	417	7299044894569400	untitled1.exe	fd2817ef40a6734f
+7	222	7299040863252827	CMakeFiles/untitled.dir/PrintMark.c.obj	7bf5281faa3857d2
+5	252	7299287298169673	CMakeFiles/SphereVolume.dir/SphereVolume.c.obj	63ef9bf5cf870999
+132	306	7299045110545596	PrintMark.exe	40a8e7595b251b6
+253	542	7299287301078948	SphereVolume.exe	793c5949443c3164
+2	273	7301898161031004	build.ninja	d6830e2d65f55d03
+3	191	7301010647213927	CMakeFiles/TaxCalculator.dir/TaxCalculator.c.obj	1f47e92470fe13bb
+192	415	7301010649411420	TaxCalculator.exe	1a0f1a65cc9f9b93
+1	219	7301063773533381	CMakeFiles/Polynomial.dir/Polynomial.c.obj	b7f3bd471f748c07
+220	499	7301063776287791	Polynomial.exe	b8bb8300778403b1
+1	91	7301896575123545	CMakeFiles/Polynomial_horner_rule.dir/Polynomial_horner_rule.c.obj	17eff9b03e76372d
+91	214	7301896576344544	Polynomial_horner_rule.exe	53ff33e9238b5e38
+1	211	7301915914490240	CMakeFiles/BillDivider.dir/BillDivider.c.obj	23a6af54b3e59068
+212	462	7301915916963517	BillDivider.exe	5fb1ec5ace78d40c
+3	188	7301916526792457	CMakeFiles/BillDivider.dir/BillDivider.c.obj	23a6af54b3e59068
+188	434	7301916529226933	BillDivider.exe	5fb1ec5ace78d40c
+5	204	7301919603911067	CMakeFiles/BillDivider.dir/BillDivider.c.obj	23a6af54b3e59068
+204	438	7301919606225493	BillDivider.exe	5fb1ec5ace78d40c
