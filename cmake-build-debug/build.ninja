@@ -271,6 +271,39 @@ build BillDivider.exe: C_EXECUTABLE_LINKER__BillDivider_Debug CMakeFiles/BillDiv
   TARGET_IMPLIB = libBillDivider.dll.a
   TARGET_PDB = BillDivider.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target LoanCalculator
+
+
+#############################################
+# Order-only phony target for LoanCalculator
+
+build cmake_object_order_depends_target_LoanCalculator: phony || CMakeFiles/LoanCalculator.dir
+
+build CMakeFiles/LoanCalculator.dir/LoanCalculator.c.obj: C_COMPILER__LoanCalculator_Debug C$:/Users/defre/CLionProjects/untitled/LoanCalculator.c || cmake_object_order_depends_target_LoanCalculator
+  DEP_FILE = CMakeFiles\LoanCalculator.dir\LoanCalculator.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\LoanCalculator.dir
+  OBJECT_FILE_DIR = CMakeFiles\LoanCalculator.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target LoanCalculator
+
+
+#############################################
+# Link the executable LoanCalculator.exe
+
+build LoanCalculator.exe: C_EXECUTABLE_LINKER__LoanCalculator_Debug CMakeFiles/LoanCalculator.dir/LoanCalculator.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\LoanCalculator.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = LoanCalculator.exe
+  TARGET_IMPLIB = libLoanCalculator.dll.a
+  TARGET_PDB = LoanCalculator.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -299,6 +332,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build BillDivider: phony BillDivider.exe
 
+build LoanCalculator: phony LoanCalculator.exe
+
 build Polynomial: phony Polynomial.exe
 
 build Polynomial_horner_rule: phony Polynomial_horner_rule.exe
@@ -319,7 +354,7 @@ build untitled: phony untitled.exe
 #############################################
 # Folder: C:/Users/defre/CLionProjects/untitled/cmake-build-debug
 
-build all: phony untitled.exe PrintMark.exe SphereVolume.exe TaxCalculator.exe Polynomial.exe Polynomial_horner_rule.exe BillDivider.exe
+build all: phony untitled.exe PrintMark.exe SphereVolume.exe TaxCalculator.exe Polynomial.exe Polynomial_horner_rule.exe BillDivider.exe LoanCalculator.exe
 
 # =============================================================================
 # Built-in targets
